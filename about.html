@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Taleem's University</title>
+    <meta name="viewport" content="width=device-width, intial-scale=1" />
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <section class="header-2">
+      <nav>
+        <a href="#"></a><img src="logo.png" alt="" /></a>
+        <div class="links" id="links">
+          <i class="fa fa-times" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="courses.html">COURSE</a></li>
+            <li><a href="programs.html">PROGRAMS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+  <h1>About Us</h1>
+    </section>
+    <!--about us content area-->
+    <section class="about-us">
+      <div class="row">
+        <div class="acol">
+          <h1>We're world's largest computer science university</h1>
+          <p>Taleem University is a leading Private University in the world astablished in 2021 and is licensed and accredited.Our student-centric academic model deploys global best practices in teaching and learning and aims to fulfil the Mission, which is to transform and inspire students to reach their full potential in employment and other stuff. </p> <p class="p1" id="p1">
+               Learning at our University is innovative, student-centric, participatory, dynamic, and practical. We use a sophisticated artificially intelligent platform to support blended learning, projects, case studies, distance learning, and other functional and active learning forms.
+               Taleem University offers market-relevant and accredited academic Programmes hosted in faculty kf science and technology.We have a large student population hailing from over 28 countries. More than 8,000 students have graduated from CUU in many different levels since it's inception.
+          </p>
+          <a href="#" class="explore" onclick="showp()">READ MORE</a>
+        </div>
+        <div class="acol">
+          <img src="about.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!--javascript for menu hide and show-->
+    <script >
+      var links= document.getElementById("links");
+      function showmenu(){
+        links.style.right="0";
+      }
+      function hidemenu(){
+        links.style.right="-200px";
+      }
+      function showp() {
+         document.getElementById("p1").style.display = "block";
+      }
+    </script>
+
+<!--footer-->
+<div class="cr">
+ <section class="footer">
+  <h4 >Our Misson</h4>
+  <p>To transform and inspire students to reach their full potential in computer programming, employment and other stuff.</p>
+  <div class="icons">
+    <p>You can find us on </p>
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-skype"></i>
+    <i class="fa fa-whatsapp"></i>
+  </div>
+  <p>copyright <i class="fa fa-copyright"></i> 2021 Taleem University</p>
+</section>
+</div>
+  </body>
+</html>

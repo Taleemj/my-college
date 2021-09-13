@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Taleem's University</title>
+    <meta name="viewport" content="width=device-width, intial-scale=1" />
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <section class="header-2">
+      <nav>
+        <a href="#"></a><img src="logo.png" alt="" /></a>
+        <div class="links" id="links">
+          <i class="fa fa-times" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="courses.html">COURSE</a></li>
+            <li><a href="programs.html">PROGRAMS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+  <h1>Our programs and online certificates for 2021</h1>
+    </section>
+    <!--programs-->
+    <section class="programs">
+      <div class="row">
+        <div class="pleft">
+          <img src="certificate.jpg" alt="" />
+          <h2>Our programs and online certificates for 2021</h2>
+          <p><b>Computer Science</b> is one of the areas of computing that includes Information Technology, Information Systems, Computer Engineering and Software Engineering. This Programme is designed to give students a strong background in the fundamentals of mathematics and computer science, thus preparing them for proficiency in designing, writing and developing computer programs.</p>
+          <br />
+             <p><b>Software Engineering</b> is a three-year undergraduate programme with a specialisation in the area of software development and engineering. The Bachelor of Science in Software Engineering programme provides to students the skillset to build and maintain computer software systems. Students learn to design and verify software and to work effectively in team environments. The Bachelor of Science in Software Engineering (BSc.SE) programme explores a wide range of course topics, including software engineering principles, software specifications and software architecture. Students design and develop a software programme from the ground up.</p>
+             <br />
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed aliquam nulla. Etiam ac dolor vel eratpulvinar elementum quis vitae orci. Aliquam erat volutpat. Aenean semper commodo est, non vestibulum mi eleifend vel.Mauris ac semper mi. Donec vulputate scelerisque ipsum, ut ultrices odio varius eget. Integer interdum vehicula neque neccursus. Fusce id hendrerit risus. Nunc rhoncus eros lacus, at feugiat erat auctor id. Sed tortor orci, dictum eget nullanec, porta tristique mauris. Aenean enim est, gravida quis eleifend sit amet, feugiat ut est. Aenean felis ex, commodo sedsapien vitae, interdum tristique massa.</p>
+             <br />
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed aliquam nulla. Etiam ac dolor vel eratpulvinar elementum quis vitae orci. Aliquam erat volutpat. Aenean semper commodo est, non vestibulum mi eleifend vel.Mauris ac semper mi. Donec vulputate scelerisque ipsum, ut ultrices odio varius eget. Integer interdum vehicula neque neccursus. Fusce id hendrerit risus. Nunc rhoncus eros lacus, at feugiat erat auctor id. Sed tortor orci, dictum eget nullanec, porta tristique mauris. Aenean enim est, gravida quis eleifend sit amet, feugiat ut est. Aenean felis ex, commodo sedsapien vitae, interdum tristique massa.</p>
+             <div class="comment">
+               <h3>Leave a comment</h3>
+               <form class="form">
+                 <input type="text" placeholder="Enter Name"/>
+                 <input type="text" placeholder="Enter Email" />
+                 <textarea rows="8" cols="40" placeholder="Your Comment"></textarea>
+                 <button type="submit" class="explore">POST COMMENT</button>
+               </form>
+             </div>
+        </div>
+    </section>
+
+    <!--javascript for menu hide and show-->
+    <script >
+      var links= document.getElementById("links");
+      function showmenu(){
+        links.style.right="0";
+      }
+      function hidemenu(){
+        links.style.right="-200px";
+      }
+    </script>
+
+<!--footer-->
+<div class="cr">
+ <section class="footer">
+  <h4 >Our Mission</h4>
+  <p>To transform and inspire students to reach their full potential in computer programming, employment and other stuff.</p>
+  <div class="icons">
+    <p>You can find us on</p>
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-skype"></i>
+    <i class="fa fa-whatsapp"></i>
+  </div>
+  <p>copyright <i class="fa fa-copyright"></i> 2021 Taleem University</p>
+</section>
+</div>
+  </body>
+</html>

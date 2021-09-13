@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Taleem's University</title>
+    <meta name="viewport" content="width=device-width, intial-scale=1" />
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <section class="header-2">
+      <nav>
+        <a href="#"></a><img src="logo.png" alt="" /></a>
+        <div class="links" id="links">
+          <i class="fa fa-times" onclick="hidemenu()"></i>
+          <ul>
+           <li><a href="home.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="courses.html">COURSE</a></li>
+            <li><a href="programs.html">PROGRAMS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+  <h1>Courses we offer</h1>
+    </section>
+<!--courses-->
+  <section class="course">
+    <h1>Courses We Offer</h1>
+    <p>We offer a variety of computer science courses with modern technologies and a few of them  include </p>
+    <div class="row">
+      <div class="col">
+        <h3>Software Engineering</h3>
+        <p>As the advances in technology move forward with increasing speed, software engineers have become a vital resource for businesses today and are therefore in high demand! As such, you can expect a rewarding career if you are willing to put time in learn how to build, test, and deploy computer systems and applications. </p>
+      </div>
+       <div class="col">
+        <h3>Web Development</h3>
+        <p>Learn full stack development, starting from the fundamentals, you'll learn,Html5, Css3 and JavaScript and will be able to build your own website in a short time </p>
+      </div>
+       <div class="col">
+        <h3>Game Development</h3>
+        <p>With game development, you can bring amazing real-time experiences to life using the world’s most advanced real-time 3D creation tool.With time, available learning content, an extensive library of webinars, and options for instructor-led training, we have a way to learn that's right for you
+.        </p>
+      </div>
+    </div>
+  </section>
+<!--facilities-->
+     <section class="facilities">
+        <h1>Our Facilities</h1>
+          <p>  </p>
+          <div class="row">
+            <div class="fcol">
+              <img src="library1.jpg" alt="" />
+              <h3>World class library</h3>
+              <p></p>
+            </div>
+           <div class="fcol">
+              <img src="basketball1.jpg" alt="" />
+              <h3>Engage in Sports</h3>
+              <p></p>
+            </div>
+          <div class="fcol">
+              <img src="computer-lab.jpg" alt="" />
+              <h3>Conducive classroom environment</h3>
+                  <p></p>
+   </section>
+    <!--javascript for menu hide and show-->
+    <script >
+      var links= document.getElementById("links");
+      function showmenu(){
+        links.style.right="0";
+      }
+      function hidemenu(){
+        links.style.right="-200px";
+      }
+    </script>
+
+<!--footer-->
+<div class="cr">
+ <section class="footer">
+  <h4 >Our Misson</h4>
+  <p>To transform and inspire students to reach their full potential in computer programming, employment and other stuff.</p>
+  <div class="icons">
+    <p>You can find us on</p>
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-skype"></i>
+    <i class="fa fa-whatsapp"></i>
+  </div>
+  <p>copyright <i class="fa fa-copyright"></i> 2021 Taleem University</p>
+</section>
+</div>
+  </body>
+</html>

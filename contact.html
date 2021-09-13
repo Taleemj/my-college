@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Taleem's University</title>
+    <meta name="viewport" content="width=device-width, intial-scale=1" />
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <section class="header-2">
+      <nav>
+        <a href="#"></a><img src="logo.png" alt="" /></a>
+        <div class="links" id="links">
+          <i class="fa fa-times" onclick="hidemenu()"></i>
+          <ul>
+           <li><a href="home.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="courses.html">COURSE</a></li>
+            <li><a href="programs.html">PROGRAMS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+  <h1>Contact Us</h1>
+ </section>
+ <!--contact-->
+  <section class="contact-us">
+    <div class="row">
+      <div class="cocol">
+        <div >
+          <i class="fa fa-home"></i>
+        </div>
+        <div>
+          <h5>South Western Antarctica</h5>
+          </div>
+          <div>
+         <p>Glacier norther whatever</p>
+        </div>
+         <div>
+          <i class="fa fa-phone"></i>
+          </div>
+          <div>
+          <h5>+4954845483</h5>
+          </div>
+          <div>
+        <p>Monday-Saturday, 7AM to 6PM</p>
+        </div>
+        <div>
+          <i class="fa fa-envelope"></i>
+          </div>
+          <div>
+          <h5>taleemuniversity@gmail.com</h5>
+          </div>
+          <div>
+         <p>Email for more details</p>
+        </div>
+      </div>
+      <div class="cocol">
+        <form action="" >
+          <input type="text"  placeholder="Enter Name" />
+          <input type="email"  placeholder="Enter email address" />
+          <input type="text"  placeholder="Enter subject" />
+          <textarea name=""  rows="8" cols="40" placeholder="Message" required></textarea>
+          <button type="submit" class="explore">Send Messages</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+    <!--javascript for menu hide and show-->
+    <script >
+      var links= document.getElementById("links");
+      function showmenu(){
+        links.style.right="0";
+      }
+      function hidemenu(){
+        links.style.right="-200px";
+      }
+    </script>
+
+<!--footer-->
+<div class="cr">
+ <section class="footer">
+  <h4 >Our Mission</h4>
+  <p>To transform and inspire students to reach their full potential in computer programming,  employment and other stuff.</p>
+  <div class="icons">
+    <p>You can find us on</p>
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-skype"></i>
+    <i class="fa fa-whatsapp"></i>
+  </div>
+  <p>copyright <i class="fa fa-copyright"></i> 2021 Taleem University</p>
+</section>
+</div>
+  </body>
+</html>
